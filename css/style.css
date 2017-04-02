@@ -1,0 +1,263 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../font/Montserrat-Regular.otf");
+}
+
+
+/*GENERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+
+a{
+  text-decoration: none; /*07-Quitar el subrayado de los enlaces*/
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    background-color: rgb(89,173,156); /*02-Color de fondo*/
+    height: 150px;
+    display: flex;
+}
+
+.img-header{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.circulo{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(89,173,156);
+}
+
+.circulo img{
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+}
+
+.name-header{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-header h1{
+  width: 100%;
+  color: white; /*01-Color de fuente*/
+  font-family: Montserrat; /*03-Tipo de fuente*/
+  text-align: center;
+  font-size: 40px;
+}
+
+.espacio-redes{
+  display: flex;
+  height: 100px;
+}
+
+.espacio{
+  width: 20%;
+}
+
+.redes{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.redes img{
+  width: 40px; /*06-Tamaño de imágenes*/
+  margin: 0 10px;
+}
+
+.redes a:hover{
+  opacity: 0.5;
+}
+
+/*CONTENIDO GENERAL*/
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container h2, h3{
+  font-family: Montserrat;
+  letter-spacing: 5px;
+}
+
+.container h2{
+  text-align: center;
+  font-size: 35px; /*05-Tamaño de letra*/
+  color: rgb(89,173,156);
+
+}
+
+.seccion{
+  margin: 20px 0;
+}
+
+.seccion h3{
+  color:  white;
+  letter-spacing: 5px;
+  background-color: rgb(89,173,156);
+  padding: 5px 10px;
+  font-size: 25px; /*05-Tamaño de letra*/
+}
+
+.seccion p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+span.nombre{
+  font-weight: 600; /*04-Peso de fuente (font-weight)*/
+}
+
+/*SECCION PRODUCTO*/
+.derecha{
+  text-align: right;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.grid a{
+  width: 33%;
+  height: 180px;
+  overflow-y: hidden;
+}
+
+.grid a img{
+  width: 100%;
+}
+
+.insta{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/*SECCION GRAFICO*/
+.grid-logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.grid-logos a{
+  width: 20%;
+}
+
+.grid-logos a img{
+  width: 100%;
+}
+
+/*SECCION WEB*/
+
+.punto{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(89,173,156);
+}
+
+#last{
+  margin-bottom: 20px;
+}
+
+.centro{
+  text-align: center;
+}
+.centrar-img{
+  display: block;
+  margin: 10px auto 30px;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: rgb(89,173,156);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Montserrat;
+}
+
+footer h4{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.trabajos{
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trabajos ul{
+  list-style-type: square; /*08-Cambiar el símbolo que aparece al inicio de cada elemento de una lista desordenada*/
+}
+
+.trabajos a{
+  color: white;
+}
+
+.trabajos a:hover{
+  opacity: 0.8;
+}
+
+.arriba{
+  width: 20%;
+  height: 30px;
+  text-align: center;
+}
+
+.arriba a{
+  display: block;
+  font-size: 25px;
+  padding-top: 2px;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
+  color: rgb(89,173,156);
+}
+
+.arriba a:hover{
+  opacity: 0.8;
+}
+
+.info-cont{
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-cont table th, td{
+  padding: 5px;
+  border: 1px solid white;
+}
