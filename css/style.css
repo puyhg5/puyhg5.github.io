@@ -181,7 +181,7 @@ header{
   color: rgb(89,173,156);
 }
 
-#last{
+.punto:last-child{
   margin-bottom: 20px;
 }
 
