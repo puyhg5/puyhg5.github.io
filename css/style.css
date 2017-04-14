@@ -1,10 +1,5 @@
-@font-face {
-    font-family: Montserrat;
-    src: url("../font/Montserrat-Regular.otf");
-}
-
-
 /*GENERAL*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -17,6 +12,7 @@ a{
 }
 
 /*HEADER*/
+
 header{
     width: 100%;
     background-color: rgb(89,173,156); /*02-Color de fondo*/
@@ -59,7 +55,7 @@ header{
 .name-header h1{
   width: 100%;
   color: white; /*01-Color de fuente*/
-  font-family: Montserrat; /*03-Tipo de fuente*/
+  font-family: 'Montserrat', sans-serif; /*03-Tipo de fuente*/
   text-align: center;
   font-size: 40px;
   text-transform: uppercase;
@@ -94,7 +90,7 @@ header{
 }
 
 .container h2, h3{
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 5px;
   text-transform: uppercase;
 }
@@ -202,7 +198,7 @@ footer{
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer h4{
