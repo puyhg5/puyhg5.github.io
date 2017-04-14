@@ -87,6 +87,7 @@ header{
 }
 
 /*CONTENIDO GENERAL*/
+
 .container{
   width: 70%;
   margin: 0 auto;
@@ -122,11 +123,12 @@ header{
   text-align: center;
 }
 
-span.nombre{
+.nombre{
   font-weight: 600; /*04-Peso de fuente (font-weight)*/
 }
 
 /*SECCION PRODUCTO*/
+
 .derecha{
   text-align: right;
 }
