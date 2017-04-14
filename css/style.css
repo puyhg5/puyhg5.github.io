@@ -62,6 +62,7 @@ header{
   font-family: Montserrat; /*03-Tipo de fuente*/
   text-align: center;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .espacio-redes{
@@ -97,6 +98,7 @@ header{
 .container h2, h3{
   font-family: Montserrat;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .container h2{
