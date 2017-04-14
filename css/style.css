@@ -29,7 +29,7 @@ header{
 }
 
 .circulo{
-  border-radius: 100%;
+  border-radius: 50%;
   width: 200px;
   height: 200px;
   background-color: red;
@@ -44,7 +44,7 @@ header{
 .circulo img{
   width: 175px;
   height: 175px;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .name-header{
@@ -241,7 +241,7 @@ footer h4{
   background: white;
   width: 40px;
   height: 40px;
-  border-radius: 100%;
+  border-radius: 50%;
   margin: 0 auto;
   color: rgb(89,173,156);
 }
