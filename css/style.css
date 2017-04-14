@@ -157,6 +157,7 @@ header{
 }
 
 /*SECCION GRAFICO*/
+
 .grid-logos{
   display: flex;
   flex-wrap: wrap;
